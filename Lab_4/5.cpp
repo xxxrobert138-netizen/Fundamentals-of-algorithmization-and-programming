@@ -7,7 +7,7 @@ int main()
 {
     double x, y;
     cin >> x >> y;
-    double sum = x + y;
+    double sum = abs(x) + abs(y);
     if (sum < 2 || sum > 4) {
         cout << "NO";
         return 0;

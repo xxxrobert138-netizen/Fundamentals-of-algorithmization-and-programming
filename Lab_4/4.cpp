@@ -17,6 +17,6 @@ int main()
     } else if ((x <= 0 && y >= 0) || (x >= 0 && y <= 0)) {
         cout << (length <= 4 ? "YES" : "NO");
     } else {
-        cout << (x + y <= 4 ? "YES" : "NO");
+        cout << (abs(x) + abs(y) <= 4 ? "YES" : "NO");
     }
 }
